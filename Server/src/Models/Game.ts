@@ -1,5 +1,5 @@
 
-import { Player } from "./Player/Player";
+import { Player } from "../Models/Player/Player";
 import { Round } from "./Round";
 
 
