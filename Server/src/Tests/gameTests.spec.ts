@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { Game } from "../Models/Game";
-import { Player } from "../Models/player";
+import { Player } from "../Models/Player/Player";
 
 describe("GenerateGameTests", function () {
     it("GameWith3Players", function(){

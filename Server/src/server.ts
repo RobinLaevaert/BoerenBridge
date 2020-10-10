@@ -1,7 +1,7 @@
 // src/server.ts
 import * as express from "express";
 import * as socketio from "socket.io";
-import { Player } from "./Models/player";
+import { Player } from "./Models/Player/Player";
 import { RegisterError } from "./Errors/RegisterError";
 
 const app = express();

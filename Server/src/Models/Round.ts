@@ -2,7 +2,7 @@ import { RoundPlayer } from "./Player/RoundPlayer";
 import { Type } from "./Deck/Types";
 import { Deck } from "./Deck/Deck";
 import { Card } from "./Deck/Card";
-import { Player } from "./player";
+import { Player } from "./Player/Player";
 
 export class Round {
   constructor(public roundNumber: number, players: Player[]) {

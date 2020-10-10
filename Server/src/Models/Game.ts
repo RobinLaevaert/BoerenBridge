@@ -1,5 +1,5 @@
-import { Deck } from "./Deck/Deck";
-import { Player } from "./player";
+
+import { Player } from "./Player/Player";
 import { Round } from "./Round";
 
 

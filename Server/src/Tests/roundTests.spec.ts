@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Player } from "../Models/player";
+import { Player } from "../Models/Player/Player";
 import { Round } from "../Models/Round";
 
 describe("RoundTests 4 Players", function () {
