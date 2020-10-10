@@ -4,7 +4,7 @@
         "esModuleInterop": false,
         "target": "es6",
         "lib":["es2019"],
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "moduleResolution": "node",
         "sourceMap": true,
         "outDir": "dist",
