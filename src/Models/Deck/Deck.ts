@@ -8,6 +8,7 @@ export class Deck{
     public static readonly maxNumberOfCards = 64;
     public deck: Card[] = [];
     constructor() {
+        
         var allCards = Types.PossibleTypes.flatMap(x => Values.PossibleValues.map(y => new Card(y,x)));
         this.deck = Shuffle(allCards);
     }
